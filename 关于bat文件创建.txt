@@ -1,0 +1,10 @@
+Java 执行main方法的bat可执行文件的创建；
+首先创建Java project及可执行Java类含main方法；
+在根目录（如WebRoot）中出创建mainfest.mf文件；
+mainfest.mf内容：
+Mainfest-Version:2.1
+Main-class: Text.java
+Export 工程为Runnable jar file 的jar包
+编写text.bat文件
+java -jar Text.jar 2018/01/13  2018/03/15
+后面日期为main方法的参数
